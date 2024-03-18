@@ -8,7 +8,7 @@ import db
 mydb = mysql.connector.connect(
   host="localhost",
   user="python",
-  password="janus",
+  password="***",
   database="wellness_db"
 )
 
@@ -16,7 +16,7 @@ mydb = mysql.connector.connect(
 dash_db = mysql.connector.connect(
   host="localhost",
   user="python",
-  password="janus",
+  password="***",
   database="dashboard"
 )
 
